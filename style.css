@@ -1,0 +1,26 @@
+
+.nav-container {
+    display: inline;
+    float: right;           
+}
+
+#name {
+    margin: 0;
+    display: inline;                 /* Removes any default margin from the name */
+}
+
+nav ul {
+    list-style: none;            /* Removes bullet points */
+    padding: 0;                  /* Removes padding */
+    margin: 0;                   /* Removes margin */
+    display: inline;               /* Displays the list items in a row */
+}
+
+nav ul li {
+    display: inline;         /* Adds spacing between each nav item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline;       /* Removes underline from links */
+}
